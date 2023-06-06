@@ -33,7 +33,7 @@ function BookingScreen() {
 
     return (
         <div className="container mt-5  box col-md-7">
-            <h2>Book a ticket for Show #{id}</h2>
+            <h2>Book a ticket</h2>
             <h2>Show Name: {name}</h2>
 
             {errorMessage && <Alert variant="danger">{errorMessage}</Alert>}
@@ -71,7 +71,7 @@ function BookingScreen() {
 
                 <Button
                     variant="primary"
-                    type="submit "
+                    type="submit"
                     className="btn btn-primary mt-3"
                 >
                     Book Now
