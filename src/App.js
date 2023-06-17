@@ -8,9 +8,9 @@ import Summary from "./screens/summary";
 function App() {
     return (
         <div className="App">
-            <Navbar />
-
             <BrowserRouter>
+                <Navbar />
+
                 <Routes>
                     <Route path="/" element={<Homescreen />} />
                     <Route path="/summary/:showId" element={<Summary />} />

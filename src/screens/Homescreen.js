@@ -16,11 +16,12 @@ function Homescreen() {
     };
 
     return (
-        <div className="container  ml-5 ">
-            <h1 className="title ml-5">TV Shows</h1>
+        <div className="container">
+            <h1 className="title">TV Shows</h1>
+            
             <div className="shows-container ml-5">
                 {shows.map((show) => (
-                    <div className="card p-1 mb-4 " key={show.id}>
+                    <div className="card p-2 mb-4 ml-5" key={show.id}>
                         <img
                             src={show.image && show.image.medium}
                             className="card-image"
